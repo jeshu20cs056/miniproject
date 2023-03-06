@@ -54,7 +54,7 @@
             <input name="" type="email" class="slider-right-form" placeholder="Email ID">
             <input name="" type="text" class="slider-right-form" placeholder="Mobile"> -->
             <!-- <textarea name="" rows="4" class="slider-right-textarea" placeholder="Message"></textarea> -->
-            <select class="district-option">
+            <select class="district-option" id="district-option">
                 <option value="Ariyalur">Ariyalur</option>
                 <option value="Chengalpattu">Chengalpattu</option>
                 <option value="Chennai">Chennai</option>
@@ -94,7 +94,7 @@
                 <option value="Villuppuram">Villuppuram</option>
                 <option value="Virudhunagar">Virudhunagar</option>
                 </select>
-            <button type="button" class="slider-right-btn">Explore Now</button>
+            <button type="button" class="slider-right-btn" onclick="display()">Explore Now</button>
         </form>
         </div>
     </div>
@@ -126,7 +126,7 @@
 
 
 <!------- Start Content Part 2  -------->
-<div class="content-part-2">
+<div class="content-part-2" id="displayspot">
 	<div class="content-part-2-h3">New Destinations</div>
     <div class="border-bottom"></div>
     
@@ -271,6 +271,22 @@
 <!------- End Footer --------->
 <div class="clearfix"></div>
 </div>
+<script>
+    function display()
+    {
+        var e=document.getElementById('district-option');
+        var getoption=e.options[e.selectedIndex];
+        var v="Kanniyakumari";
+        var selectedvalue=getoption.value;
+        console.log(selectedvalue);
+        if(v==selectedvalue)
+        {
+            document.getElementById('displayspot').style.display="block";
+         }
+        
+    }
+
+</script>
 
 
 
