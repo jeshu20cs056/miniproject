@@ -108,3 +108,22 @@ font-size:16px; margin-left:-6px; border:none;}
 .footer-bottom{ width:1300px; background:#3264b0; float:left; color:#FFF; text-align:center; font-size:12px; 
 font-weight:bold; padding:15px 0px !important;}
 /*********** End Footer *********/
+
+
+/* .grid{
+	display:grid;
+	grid-template-columns: 40% 40%;
+	column-gap: 10%;
+}
+.grid1{
+	background-color: #0474C6;
+	border-color:  black;
+        border-style: solid;
+        padding-bottom: 40%;
+}
+.grid2{
+	background-color: #F0B604;
+	border-color:  black;
+        border-style: solid;
+        padding-bottom: 40%; */
+}
