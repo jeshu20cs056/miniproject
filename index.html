@@ -1,57 +1,70 @@
 <html>
-<head>
-<title>TOURS and TRAVELS WEBSITE</title>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-<link rel="icon" href="favicon.ico">
-<script src="javascript.js"></script>
-</head>
-<body>
-
-<div class="main">
-
-<!----- Start Header ------>
-<div class="header">
-	<div class="header-left"><img src="images/logo2.png" width="200" height="100" alt="Logo"></div>
-    <div class="header-right">
-    	<div class="header-right-top">
+  <head>
+    <title>TOURS and TRAVELS WEBSITE</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="icon" href="favicon.ico" />
+    <script src="javascript.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <!----- Start Header ------>
+      <div class="header">
+        <div class="header-left">
+          <img src="images/logo4.jpg" width="190" height="120" style="border-radius: 70%"   alt="Logo" />
+        </div>
+        <div class="header-right">
+          <div class="header-right-top">
             <ul>
-                <li><a href="#!"><i class="fa fa-list"></i>&nbsp; My Wishlist</a></li>
-                 <li><a href="#!"><i class="fa fa-cart-plus"></i><a href="public/signup.html">&nbsp;Sign up</a></a></li>
-                  <li style="border-right:none;"><a href="#!"><i class="fa fa-unlock"></i><a href="public/login.html">&nbsp; Sign In</a></a></li>
+              <li>
+                <a href="#!"><i class="fa fa-list"></i>&nbsp; My Wishlist</a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><i class="fa fa-cart-plus"></i
+                  ><a href="public/signup.html">&nbsp;Sign up</a></a
+                >
+              </li>
+              <li style="border-right: none">
+                <a href="#!"
+                  ><i class="fa fa-unlock"></i
+                  ><a href="public/login.html">&nbsp; Sign In</a></a
+                >
+              </li>
             </ul>
-        </div>
-        <div class="header-right-bottom">
-        	<ul>
-            	<li><a href="#!">Home</a></li>
-                <li><a href="#!">Holidays</a></li>
-                <li><a href="#!">Holiday Packages</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="#!">Blog</a></li>
+          </div>
+          <div class="header-right-bottom">
+            <ul>
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">Holidays</a></li>
+              <li><a href="#!">Rules</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="#!">Blog</a></li>
             </ul>
+          </div>
         </div>
-        
-    </div>
-</div>
-<!----- End Header ------>
+      </div>
+      <!----- End Header ------>
 
-<!----- Start Slider Part ------>
-<div class="slider">
-	<div class="slider-left">
-    	<div class="slider-left-h2">Work, Travel, Save, Repeat.</div>
-        <div class="slider-left-p">Once a year, go someplace you’ve never been before. We have nothing to lose and
-             a world to see. Some beautiful paths can’t be discovered without getting lost, 
-             Dare to live the life you’ve always wanted.
+      <!----- Start Slider Part ------>
+      <div class="slider">
+        <div class="slider-left">
+          <div class="slider-left-h2">Work, Travel, Save, Repeat.</div>
+          <div class="slider-left-p">
+            Once a year, go someplace you’ve never been before. We have nothing
+            to lose and a world to see. Some beautiful paths can’t be discovered
+            without getting lost, Dare to live the life you’ve always wanted.
+          </div>
         </div>
-    </div>
-    <div class="slider-right">
-    	<div class="slider-right-h3">Choose district</div>
-        <div class="slider-right-p">Explore Your Tourist spot By Clicking Explore Now</div>
-        
-        <div>
-        <form action="" method="post">
-        	
-            <select class="district-option" id="district-option">
+        <div class="slider-right">
+          <div class="slider-right-h3">Choose district</div>
+          <div class="slider-right-p">
+            Explore Your Tourist spot By Clicking Explore Now
+          </div>
+
+          <div>
+            <form action="" method="post">
+              <select class="district-option" id="district-option">
                 <option value="Ariyalur">Ariyalur</option>
                 <option value="Chengalpattu">Chengalpattu</option>
                 <option value="Chennai">Chennai</option>
@@ -90,134 +103,212 @@
                 <option value="vellore">vellore</option>
                 <option value="Villuppuram">Villuppuram</option>
                 <option value="Virudhunagar">Virudhunagar</option>
-                </select>
-            <button type="button" class="slider-right-btn" onclick="display()">Explore Now</button>
-        </form>
+              </select>
+              <button
+                type="button"
+                class="slider-right-btn"
+                onclick="display()"
+              >
+                Explore Now
+              </button>
+            </form>
+          </div>
         </div>
-    </div>
-</div>
-<!----- End Slider Part ------>
+      </div>
+      <!----- End Slider Part ------>
 
-                         
+      <!------- Start Content Part 2  -------->
+      <div class="content-part-2" id="displayspot">
+        <div class="content-part-2-h3">Kanniyakumari</div>
+        <div class="border-bottom"></div>
 
-
-<!------- Start Content Part 2  -------->
-<div class="content-part-2" id="displayspot">
-	<div class="content-part-2-h3">Kanniyakumari</div>
-    <div class="border-bottom"></div>
-    
-	<div class="content-part-2-sub">
-        <div align="center"><img src="images/1.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Thiruvalluvar Statue</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>13500.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/2.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Vivekananda Rock Memorial</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>20000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/3.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Government Museum</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>85000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/4.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Mahatma Gandhi Mandapam</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>125500.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/5.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">View Tower</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>180000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/6.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Mathoor Aqueduct</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>95000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/7.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Our Lady of Ransom Shrine</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>150000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-    <div class="content-part-2-sub">
-    	<div align="center"><img src="images/8.jpg" width="560" height="300"></div>
-        <div class="content-part-2-sub-h4">Tsunami Memorial Park</div>
-        <div class="content-part-2-sub-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
-        <div class="content-part-2-sub-price">From <span class="fa fa-inr"></span>250000.00/-</div>
-        <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
-    </div>
-</div>
-<!-- <div class="grid">
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/1.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Thiruvalluvar Statue</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>13500.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/2.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Vivekananda Rock Memorial</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>20000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/3.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Government Museum</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>85000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/4.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Mahatma Gandhi Mandapam</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>125500.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/5.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">View Tower</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>180000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/6.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Mathoor Aqueduct</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>95000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/7.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Our Lady of Ransom Shrine</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>150000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+        <div class="content-part-2-sub">
+          <div align="center">
+            <img src="images/8.jpg" width="560" height="300" />
+          </div>
+          <div class="content-part-2-sub-h4">Tsunami Memorial Park</div>
+          <div class="content-part-2-sub-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+          <div class="content-part-2-sub-price">
+            From <span class="fa fa-inr"></span>250000.00/-
+          </div>
+          <div><a href="#!" class="content-part-2-sub-btn">Book Now</a></div>
+        </div>
+      </div>
+      <!-- <div class="grid">
     <div class="grid1">hi</div>
     <div class="grid2">hello</div>
 </div> -->
-<!------- End Content Part 2  --------->
+      <!------- End Content Part 2  --------->
 
-
-<!------- Start Footer --------->
-<div class="footer">
-	<div class="footer-parts">
-    	<div class="footer-parts-h4">About Company</div>
-        <div class="footer-parts-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-        took a galley of type and scrambled it to make a type specimen book.</div>
-    </div>
-    <div class="footer-parts">
-    	<div style="padding-left:100px;">
-        	<div class="footer-parts-h4">Our Liks</div>
+      <!------- Start Footer --------->
+      <div class="footer">
+        <div class="footer-parts">
+          <div class="footer-parts-h4">About Company</div>
+          <div class="footer-parts-p">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </div>
         </div>
-        <ul>
-        	<li><a href="#!">About Us</a></li>
+        <div class="footer-parts">
+          <div style="padding-left: 100px">
+            <div class="footer-parts-h4">Our Liks</div>
+          </div>
+          <ul>
+            <li><a href="#!">About Us</a></li>
             <li><a href="#!">Contact Us</a></li>
             <li><a href="#!">Blog</a></li>
             <li><a href="#!">Terms &amp; Conditions</a></li>
             <li><a href="#!">Privacy Policy</a></li>
-        </ul>
-    </div>
-    <div class="footer-parts">
-    	<div class="footer-parts-h4">Subscribe &amp; Social Links</div>
-        <form action="" method="post">
-        	<input type="text" class="form" placeholder="example@mail.com">
-            <button type="submit" name="submit" class="subscribe">Subscribe</button>
-        </form>
-        
-        <div class="social-links">
-        	<ul>
-            	<li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#!"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#!"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#!"><i class="fa fa-youtube"></i></a></li>
-            </ul>
+          </ul>
         </div>
+        <div class="footer-parts">
+          <div class="footer-parts-h4">Subscribe &amp; Social Links</div>
+          <form action="" method="post">
+            <input type="text" class="form" placeholder="example@mail.com" />
+            <button type="submit" name="submit" class="subscribe">
+              Subscribe
+            </button>
+          </form>
+
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#!"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#!"><i class="fa fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="white">
+          &copy;
+          <script language="javascript" type="text/javascript">
+            document.write(new Date().getFullYear());
+          </script>
+          . All rights reserved by
+          <a href="http://www.freetimelearning.com/" target="_blank"
+            >Free Time Learn</a
+          >.
+        </div>
+      </div>
+      <!------- End Footer --------->
+      <div class="clearfix"></div>
     </div>
-</div>
-
-<div class="footer-bottom">
-	<div class="white">&copy; <script language="javascript" type="text/javascript">document.write(new Date().getFullYear());</script>. All rights reserved by <a href="http://www.freetimelearning.com/" target="_blank">Free Time Learn</a>.</div>
-</div>
-<!------- End Footer --------->
-<div class="clearfix"></div>
-</div>
-
-
-
-
-</body>
+  </body>
 </html>
