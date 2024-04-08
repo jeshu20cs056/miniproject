@@ -1,6 +1,3 @@
 # miniproject
 
-this line is contributed by jeshwanth
-
-this is written from vs code from laptop
-this surya and jana
+Website Hosted URL : https://tntourism24.netlify.app/
